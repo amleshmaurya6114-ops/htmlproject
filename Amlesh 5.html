@@ -1,38 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Department Navigation</title>
+    <title>Modern Department Page</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        header, footer {
+            padding: 20px;
+            text-align: center;
+            background: lightgray;
+        }
+
+        nav {
+            padding: 15px;
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        section {
+            flex: 3;
+        }
+
+        aside {
+            flex: 1;
+        }
+    </style>
 </head>
+
 <body>
 
 <header>
-    <h1>Department of Computer Science</h1>
-
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a> |
-        <a href="courses.html">Courses</a> |
-        <a href="faculty.html">Faculty</a> |
-        <a href="labs.html">Labs</a> |
-        <a href="assignments.html">Assignments</a> |
-        <a href="notices.html">Notices</a> |
-        <a href="gallery.html">Gallery</a> |
-        <a href="contact.html">Contact</a>
-    </nav>
+    <h1>Computer Science Department</h1>
 </header>
 
-<main>
-    <h2>Welcome to the Department</h2>
-    <p>
-        Explore courses, faculty information, laboratory details,
-        assignments, notices and college events.
-    </p>
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <a href="#">Home</a>
+</nav>
 
-    <h3>External Link</h3>
-    <a href="https://www.example.com" target="_blank">
-        Visit External Website
-    </a>
+<main>
+    <section>
+        <h2>Department Information</h2>
+        <p>Welcome to our Computer Science Department.</p>
+    </section>
+
+    <aside>
+        <h3>Latest Notices</h3>
+        <p>Exam and event information.</p>
+    </aside>
 </main>
+
+<footer>
+    &copy; 2026 Department
+</footer>
 
 </body>
 </html>
